@@ -1,0 +1,2 @@
+# NOVA-Geospatial-Ozone-Predictor
+(North American Ozone Visual Analytics)N.O.V.A. is an advanced atmospheric intelligence platform designed to analyze, visualize, and predict stratospheric and tropospheric Ozone ($O_3$) concentrations across Western North America.Leveraging nearly 30 years of NASA/FLEXPART back-trajectory data, this system combines Geospatial Mapping, Stochastic Machine Learning, and Real-Time API Telemetry into a unified "Mission Control" dashboard.
