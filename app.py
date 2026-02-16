@@ -14,7 +14,7 @@ from mpl_toolkits.mplot3d import Axes3D # For 3D plotting
 import seaborn as sns
 
 # ==================================================
-# 📦 LIBRARY CHECK
+# LIBRARY CHECK
 # ==================================================
 try:
     import tkintermapview
@@ -22,9 +22,7 @@ except ImportError:
     messagebox.showerror("Missing Libraries", "Please run: pip install tkintermapview requests")
     exit()
 
-# ==================================================
-# 🎨 ENTERPRISE THEME (Cyber-Corporate)
-# ==================================================
+# THEME
 COLOR_BG          = "#0b0f19"   # Midnight Blue (Main BG)
 COLOR_SIDEBAR     = "#151b2b"   # Darker Navy (Sidebar)
 COLOR_CARD        = "#1e293b"   # Card Background
@@ -41,9 +39,7 @@ FONT_H2           = ("Segoe UI", 16)
 FONT_BODY         = ("Segoe UI", 11)
 FONT_MONO         = ("Consolas", 12)
 
-# ==================================================
-# 🧠 DATA INTELLIGENCE ENGINE
-# ==================================================
+# DATA INTELLIGENCE ENGINE
 class DataBrain:
     def __init__(self):
         self.df = None
@@ -83,13 +79,11 @@ class DataBrain:
 
 brain = DataBrain()
 
-# ==================================================
-# 🖥️ APPLICATION UI (The "Big Tech" Look)
-# ==================================================
+# APPLICATION UI
 class OzoneEnterpriseApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("NASA/FLEXPART | ATMOSPHERIC INTELLIGENCE PLATFORM")
+        self.root.title("NASA/N.O.V.A | ATMOSPHERIC INTELLIGENCE PLATFORM")
         self.root.geometry("1500x950")
         self.root.configure(bg=COLOR_BG)
         
@@ -200,10 +194,10 @@ class OzoneEnterpriseApp:
         tk.Label(toolbar, text="VISUALIZATION ENGINE:", bg=COLOR_CARD, fg="white", font=FONT_BODY).pack(side="left", padx=20)
         
         buttons = [
-            ("📈 TRENDS", "trend"),
-            ("✈️ 3D PLOT", "3d"),
-            ("🍩 COMPOSITION", "pie"),
-            ("🌡️ HEATMAP", "heatmap")
+            ("TRENDS", "trend"),
+            ("3D PLOT", "3d"),
+            ("COMPOSITION", "pie"),
+            ("HEATMAP", "heatmap")
         ]
         
         for text, mode in buttons:
@@ -277,9 +271,7 @@ class OzoneEnterpriseApp:
         canvas.draw()
         canvas.get_tk_widget().pack(fill="both", expand=True)
 
-    # ==================================================
     # PAGE 3: PREDICTIVE AI (Tall Map & Animation)
-    # ==================================================
     def show_prediction(self):
         self.clear_main()
         
@@ -388,9 +380,7 @@ class OzoneEnterpriseApp:
         else:
             self.lbl_pred_val.config(text=f"{target:.2f}")
 
-    # ==================================================
     # PAGE 4: SATELLITE FEED (Robust Threading)
-    # ==================================================
     def show_api_feed(self):
         self.clear_main()
         self.is_tracking_iss = True
@@ -433,9 +423,7 @@ class OzoneEnterpriseApp:
             except: pass
             time.sleep(3)
 
-# ==================================================
-# 🚀 SYSTEM BOOT
-# ==================================================
+# SYSTEM BOOT
 if __name__ == "__main__":
     root = tk.Tk()
     app = OzoneEnterpriseApp(root)
