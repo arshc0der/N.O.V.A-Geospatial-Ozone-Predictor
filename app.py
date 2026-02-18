@@ -158,7 +158,7 @@ class OzoneEnterpriseApp:
         map_container = tk.Frame(self.main_area, bg=COLOR_CARD, bd=1, relief="solid")
         map_container.pack(fill="both", expand=True, padx=30, pady=20)
         
-        tk.Label(map_container, text="LIVE GEOSPATIAL DISTRIBUTION", bg=COLOR_CARD, fg="white", font=FONT_H2).pack(pady=10)
+        tk.Label(map_container, text="GEOSPATIAL DISTRIBUTION", bg=COLOR_CARD, fg="white", font=FONT_H2).pack(pady=10)
         
         self.map_widget = tkintermapview.TkinterMapView(map_container, corner_radius=0)
         self.map_widget.pack(fill="both", expand=True)
