@@ -22,7 +22,7 @@
 
 **N.O.V.A. (North American Ozone Visual Analytics)** is a Mission Control–style atmospheric intelligence system designed to analyze, visualize, and predict stratospheric and tropospheric Ozone (O₃) concentrations across Western North America.
 
-It transforms nearly 30 years of NASA/FLEXPART atmospheric back-trajectory data into an interactive desktop dashboard combining:
+It transforms nearly 30 years of NASA atmospheric back-trajectory data into an interactive desktop dashboard combining:
 
 - 📊 Historical Geospatial Visualization  
 - 🤖 Random Forest Machine Learning Prediction  
