@@ -83,7 +83,7 @@ brain = DataBrain()
 class OzoneEnterpriseApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("NASA/N.O.V.A | ATMOSPHERIC INTELLIGENCE PLATFORM")
+        self.root.title("N.O.V.A | ATMOSPHERIC INTELLIGENCE PLATFORM")
         self.root.geometry("1500x950")
         self.root.configure(bg=COLOR_BG)
         
