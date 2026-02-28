@@ -76,7 +76,7 @@ class OzoneEnterpriseApp:
         self.root.title("N.O.V.A | ATMOSPHERIC INTELLIGENCE PLATFORM")
         # ---> SET THE WINDOW ICON <---
         try:
-            self.root.iconbitmap("logo.ico")
+            self.root.iconbitmap("nova_icon.ico")
         except:
             pass # Failsafe in case the icon file is missing
         self.root.geometry("1500x950")
