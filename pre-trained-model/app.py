@@ -74,6 +74,11 @@ class OzoneEnterpriseApp:
     def __init__(self, root):
         self.root = root
         self.root.title("N.O.V.A | ATMOSPHERIC INTELLIGENCE PLATFORM")
+        # ---> SET THE WINDOW ICON <---
+        try:
+            self.root.iconbitmap("logo.ico")
+        except:
+            pass # Failsafe in case the icon file is missing
         self.root.geometry("1500x950")
         self.root.configure(bg=COLOR_BG)
         
