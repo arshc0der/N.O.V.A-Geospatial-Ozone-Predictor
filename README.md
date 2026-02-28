@@ -1,6 +1,6 @@
 # 🌍 N.O.V.A. — Geospatial Ozone Predictor
 
-> An advanced atmospheric intelligence platform using NASA/FLEXPART data (1994–2021), Stochastic Machine Learning, and Real-Time Telemetry.
+> An advanced atmospheric intelligence platform using NASA data (1994–2021), Stochastic Machine Learning, and Real-Time Telemetry.
 
 <p align="left">
   <img src="https://img.shields.io/badge/status-Stable-brightgreen.svg" />
