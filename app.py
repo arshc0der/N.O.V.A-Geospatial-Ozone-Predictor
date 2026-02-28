@@ -105,7 +105,7 @@ class OzoneEnterpriseApp:
         self.sidebar.pack_propagate(False)
 
         # Brand
-        tk.Label(self.sidebar, text="FLEXPART\nENTERPRISE", bg=COLOR_SIDEBAR, fg=COLOR_ACCENT, 
+        tk.Label(self.sidebar, text="NOVA\nDashboard", bg=COLOR_SIDEBAR, fg=COLOR_ACCENT, 
                  font=("Segoe UI", 22, "bold"), pady=40).pack()
 
         # Menu
