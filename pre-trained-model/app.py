@@ -419,3 +419,6 @@ if __name__ == "__main__":
         # If the app crashes, it will write the error to a text file!
         with open("crash_report.txt", "w") as f:
             f.write(traceback.format_exc())
+
+
+#pyinstaller --onefile --noconsole --icon=nova_icon.ico --hidden-import=pandas --hidden-import=sklearn.ensemble._forest --hidden-import=sklearn.tree._utils --hidden-import=matplotlib --hidden-import=seaborn app.py
