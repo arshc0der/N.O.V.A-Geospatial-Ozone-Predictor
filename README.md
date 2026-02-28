@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arshc0der/N.O.V.A-Geospatial-Ozone-Predictor/refs/heads/main/preview/1.png" width="100%" alt="NOVA Dashboard"/>
+  <img src="https://raw.githubusercontent.com/arshc0der/N.O.V.A-Geospatial-Ozone-Predictor/refs/heads/main/preview/logo.svg" width="100%" alt="NOVA Dashboard"/>
 </p>
 
 ---
