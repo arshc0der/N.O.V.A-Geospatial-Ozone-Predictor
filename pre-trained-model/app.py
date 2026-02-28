@@ -407,9 +407,15 @@ class OzoneEnterpriseApp:
             time.sleep(3)
 
 # ==================================================
-# SYSTEM BOOT
+# SYSTEM BOOT (WITH CRASH REPORTER)
 # ==================================================
 if __name__ == "__main__":
-    root = tk.Tk()
-    app = OzoneEnterpriseApp(root)
-    root.mainloop()
+    import traceback
+    try:
+        root = tk.Tk()
+        app = OzoneEnterpriseApp(root)
+        root.mainloop()
+    except Exception as e:
+        # If the app crashes, it will write the error to a text file!
+        with open("crash_report.txt", "w") as f:
+            f.write(traceback.format_exc())
